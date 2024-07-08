@@ -30,6 +30,24 @@ No aplica
 **Especificaciones técnicas**
 1. 
 
+**Lineamientos Generales**
+1.
+
+**Lineamientos Microclientes**
+1.
+
+**Lineamientos Microservicios**
+1.
+
+**Lineamientos Modelos de datos**
+1.
+
+**Lineamientos Pruebas Unitarias Microcliente**
+1.
+
+**Lineamientos Pruebas Unitarias Microservicio**
+1.
+
 **Definition of Ready - DoR**
 
 - [x] Está refinada y estimada en puntos de historia por el equipo.

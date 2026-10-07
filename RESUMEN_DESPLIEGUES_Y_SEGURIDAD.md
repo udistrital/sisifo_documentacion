@@ -1,15 +1,23 @@
-# Estado de Despliegues, CI y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-07 19:39:10 UTC`
+# Estado de Despliegues, CI, PRs y Alertas de Seguridad
+> *Estado generado automáticamente:* `2026-10-07 19:47:28 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#47 - feat: Release/1.0.0 actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/47) | `release/1.0.0` | `develop` | 2026-10-07 19:41:04 UTC | @edwargl7 |
+
 
 ### Último Despliegue por Rama
 
@@ -22,13 +30,20 @@
 ---
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
-**Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 0, High: 3, Med: 0, Low: 1)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 0, High: 3, Med: 0, Low: 1)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 
@@ -41,13 +56,20 @@
 ---
 
 ## [usuario_rol_crud](https://github.com/udistrital/usuario_rol_crud)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 
@@ -60,13 +82,23 @@
 ---
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ⚠️ **3 PR(s) pendiente(s)** (3 en `develop`)
 
 ### Estado CI
 
 | Develop | Release/8.1.0 | Release/8.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#508 - Feature/implementacion firma electronica](https://github.com/udistrital/plan_anual_auditoria_mf/pull/508) | `feature/implementacion_firma_electronica` | `develop` | 2026-10-07 03:30:16 UTC | @Sgarcia8 |
+| [#507 - fix: Ajustes en la recarga de los componentes, alertas y spinner](https://github.com/udistrital/plan_anual_auditoria_mf/pull/507) | `feature/ajustes_recarga_spinner` | `develop` | 2026-10-07 03:01:45 UTC | @CristianCGutierrezG |
+| [#495 - feat: implementar tour guiado del Plan Anual de Auditoría con driver.js](https://github.com/udistrital/plan_anual_auditoria_mf/pull/495) | `feature/implementar-tour-guiado` | `develop` | 2026-09-26 21:49:09 UTC | @RANDRESS23 |
+
 
 ### Último Despliegue por Rama
 
@@ -80,13 +112,20 @@
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/6.0.1 | Release/6.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 
@@ -100,13 +139,20 @@
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 
@@ -120,13 +166,20 @@
 ---
 
 ## [renderizado_plantillas_html](https://github.com/udistrital/renderizado_plantillas_html)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 
@@ -140,13 +193,20 @@
 ---
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 
@@ -159,13 +219,21 @@
 ---
 
 ## [plantillas_crud_serverless](https://github.com/udistrital/plantillas_crud_serverless)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#14 - feat: se agrega v2 al servicio que soporta versionamiento en plantillas](https://github.com/udistrital/plantillas_crud_serverless/pull/14) | `feature/plantillas-versionadas` | `master` | 2026-08-27 15:01:48 UTC | @LethSphere |
+
 
 ### Último Despliegue por Rama
 
@@ -178,13 +246,20 @@
 ---
 
 ## [cargue_archivo_mid_serverless](https://github.com/udistrital/cargue_archivo_mid_serverless)
-**Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
 | Develop | Release/1.0.0 | Release/0.0.1 | Master / Main |
 | -- | -- | -- | -- |
 | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/release/0.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) |
+
+### Pull Requests Pendientes por Resolver (Abiertos)
+
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
+
 
 ### Último Despliegue por Rama
 

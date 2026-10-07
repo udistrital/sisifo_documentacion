@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-07 19:13:27 UTC`
+> *Estado generado automáticamente:* `2026-10-07 19:15:16 UTC`
 
 ---
 ## `usuario_rol_crud`
@@ -16,9 +16,9 @@
 | Fecha Merge (UTC) | Rama Destino | PR Resuelto | Autor |
 |---|---|---|---|
 | 2026-10-06 14:33:44 UTC | `master` | [#46 - feat: Release/1.0.1 actualización de dependencias](https://github.com/udistrital/usuario_rol_crud/pull/46) | @edwargl7 |
+| 2026-09-18 10:22:14 UTC | `develop` | [#45 - devops: actualiza utils_oas a v0.6.0, parchea gRPC contra alerta y alinea main.go con lineamientos CI/CD udistrital/sisifo_documentacion#881](https://github.com/udistrital/usuario_rol_crud/pull/45) | @JorgeLo1 |
+| 2026-09-15 15:42:01 UTC | `develop` | [#44 - devops: actualiza dependencias transitivas por alertas de dependabot udistrital/sisifo_documentacion#881](https://github.com/udistrital/usuario_rol_crud/pull/44) | @JorgeLo1 |
+| 2026-05-11 19:55:25 UTC | `develop` | [#41 - feat: Actualización y ajustes dependencias udistrital/sisifo_document…](https://github.com/udistrital/usuario_rol_crud/pull/41) | @diegobauto |
 | 2026-05-29 04:27:45 UTC | `master` | [#43 - feat: Actualización y ajustes dependencias](https://github.com/udistrital/usuario_rol_crud/pull/43) | @edwargl7 |
-| 2026-05-11 20:29:28 UTC | `release/1.0.0` | [#42 - Vulnerabilidades dependabot](https://github.com/udistrital/usuario_rol_crud/pull/42) | @diegobauto |
-| 2026-04-10 20:00:21 UTC | `master` | [#40 - devops: ajustes despliegue producción](https://github.com/udistrital/usuario_rol_crud/pull/40) | @edwargl7 |
-| 2026-04-07 16:02:20 UTC | `release/1.0.0` | [#39 - fix: Se actualiza la versión de utils y se agrega la variable del parameter](https://github.com/udistrital/usuario_rol_crud/pull/39) | @edwargl7 |
 
 ---

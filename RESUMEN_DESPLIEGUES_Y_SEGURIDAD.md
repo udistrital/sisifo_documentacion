@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-07 19:27:44 UTC`
+> *Estado generado automáticamente:* `2026-10-07 19:31:46 UTC`
 
 ---
 ## `auditoria_plan_mejoramiento_root_mf`
@@ -9,7 +9,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
 
 ### Último Despliegue por Rama
 
@@ -31,7 +31,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) |
 
 ### Último Despliegue por Rama
 
@@ -52,7 +52,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) |
 
 ### Último Despliegue por Rama
 
@@ -73,7 +73,7 @@
 
 | Develop | Release/8.1.0 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) |
 
 ### Último Despliegue por Rama
 
@@ -96,7 +96,7 @@
 
 | Develop | Release/6.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
 
 ### Último Despliegue por Rama
 
@@ -118,7 +118,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
 
 ### Último Despliegue por Rama
 
@@ -139,7 +139,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) |
 
 ### Último Despliegue por Rama
 
@@ -161,7 +161,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) |
 
 ### Último Despliegue por Rama
 
@@ -181,7 +181,7 @@
 
 | Develop | Release/1.0.1 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_crud_serverless/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_crud_serverless/) |
 
 ### Último Despliegue por Rama
 
@@ -200,7 +200,7 @@
 
 | Develop | Release/1.0.0 | Master / Main |
 | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/main)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/cargue_archivo_mid_serverless/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/cargue_archivo_mid_serverless/) |
 
 ### Último Despliegue por Rama
 

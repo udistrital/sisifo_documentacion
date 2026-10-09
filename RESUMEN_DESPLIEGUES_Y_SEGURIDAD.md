@@ -1,10 +1,10 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-07 19:47:28 UTC`
+> *Estado generado automáticamente:* `2026-10-09 05:02:50 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -14,18 +14,18 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#47 - feat: Release/1.0.0 actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/47) | `release/1.0.0` | `develop` | 2026-10-07 19:41:04 UTC | @edwargl7 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-09-19 23:13:10 UTC | [#46 - feat: Update .drone.yml](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/46) | @edwargl7 |
+| `develop` | 2026-10-07 22:32:33 UTC | [#47 - feat: Release/1.0.0 actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/47) | @edwargl7 |
 | `release/1.0.0` | 2026-06-19 02:21:37 UTC | [#42 - feat: colores para estilos success, warning y error: verde, naranja](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/42) | @edwargl7 |
-| `master` | 2026-06-19 03:15:19 UTC | [#43 - feat: ajuste de estilos](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/43) | @edwargl7 |
+| `release/1.0.1` | 2026-10-08 11:40:50 UTC | [#48 - devops: actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/48) | @edwargl7 |
+| `master` | 2026-10-08 12:43:19 UTC | [#49 - feat: despliegue Release/1.0.1 actualización angular](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/49) | @edwargl7 |
 
 ---
 
@@ -83,7 +83,7 @@
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ⚠️ **3 PR(s) pendiente(s)** (3 en `develop`)
+- **Estado de Pull Requests:** ⚠️ **5 PR(s) pendiente(s)** (5 en `develop`)
 
 ### Estado CI
 
@@ -95,6 +95,8 @@
 
 | PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
 |---|---|---|---|---|
+| [#510 - Feature/mejoras visuales revision plan](https://github.com/udistrital/plan_anual_auditoria_mf/pull/510) | `feature/mejoras-visuales-revision-plan` | `develop` | 2026-10-08 16:53:51 UTC | @JorgeLo1 |
+| [#509 - fix: Cargue de auditorías en Asignar Auditorías del PAA](https://github.com/udistrital/plan_anual_auditoria_mf/pull/509) | `fix/cargue_asignar_auditorias` | `develop` | 2026-10-08 03:58:23 UTC | @Sgarcia8 |
 | [#508 - Feature/implementacion firma electronica](https://github.com/udistrital/plan_anual_auditoria_mf/pull/508) | `feature/implementacion_firma_electronica` | `develop` | 2026-10-07 03:30:16 UTC | @Sgarcia8 |
 | [#507 - fix: Ajustes en la recarga de los componentes, alertas y spinner](https://github.com/udistrital/plan_anual_auditoria_mf/pull/507) | `feature/ajustes_recarga_spinner` | `develop` | 2026-10-07 03:01:45 UTC | @CristianCGutierrezG |
 | [#495 - feat: implementar tour guiado del Plan Anual de Auditoría con driver.js](https://github.com/udistrital/plan_anual_auditoria_mf/pull/495) | `feature/implementar-tour-guiado` | `develop` | 2026-09-26 21:49:09 UTC | @RANDRESS23 |
@@ -112,7 +114,7 @@
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **68 total** (Crit: 1, High: 36, Med: 28, Low: 3)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
@@ -139,7 +141,7 @@
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 3, High: 0, Med: 1, Low: 0)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI

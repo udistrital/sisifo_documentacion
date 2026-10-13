@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-13 01:16:30 UTC`
+> *Estado generado automáticamente:* `2026-10-13 02:36:51 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -30,8 +30,8 @@
 ---
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 0, High: 3, Med: 0, Low: 1)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **3 total** (Crit: 2, High: 0, Med: 1, Low: 0)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -41,18 +41,18 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#87 - fix: actualizar dependencias por alertas de Dependabot y pnpm audit](https://github.com/udistrital/usuario_rol_mf/pull/87) | `feature/corrDependabot` | `develop` | 2026-10-09 15:16:21 UTC | @diegobauto |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-09-19 23:52:15 UTC | [#84 - fix: Correcciones del dependanbot](https://github.com/udistrital/usuario_rol_mf/pull/84) | @Mechaz123 |
+| `develop` | 2026-10-13 02:27:21 UTC | [#87 - fix: actualizar dependencias por alertas de Dependabot y pnpm audit](https://github.com/udistrital/usuario_rol_mf/pull/87) | @diegobauto |
 | `release/1.0.0` | 2026-05-28 12:14:05 UTC | [#82 - fix: corrección visual de badge de estado para registros eliminados](https://github.com/udistrital/usuario_rol_mf/pull/82) | @edwargl7 |
-| `master` | 2026-10-06 14:25:03 UTC | [#86 - feat: Release/1.0.1 actualización de dependencias](https://github.com/udistrital/usuario_rol_mf/pull/86) | @edwargl7 |
+| `release/1.0.1` | 2026-10-13 02:32:56 UTC | [#88 - fix: actualizar dependencias por alertas de Dependabot y pnpm audit](https://github.com/udistrital/usuario_rol_mf/pull/88) | @edwargl7 |
+| `master` | 2026-10-13 02:36:11 UTC | [#89 - fix: Release/1.0.1 actualizar dependencias por alertas de Dependabot y pnpm audit](https://github.com/udistrital/usuario_rol_mf/pull/89) | @edwargl7 |
 
 ---
 
@@ -115,7 +115,7 @@
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **68 total** (Crit: 1, High: 36, Med: 28, Low: 3)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -125,16 +125,15 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#240 - fix: https://github.com/udistrital/sisifo_documentacion/issues/913 ac…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/240) | `feature/885-dependabot` | `develop` | 2026-10-12 21:07:23 UTC | @Sgarcia8 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-03 17:30:18 UTC | [#238 - fix: Ajuste plantilla y ajustes en el renderizado plan mejoramiento v…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/238) | @diegobauto |
+| `develop` | 2026-10-13 01:22:07 UTC | [#240 - fix: https://github.com/udistrital/sisifo_documentacion/issues/913 ac…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/240) | @Sgarcia8 |
 | `release/6.0.0` | 2026-06-17 02:26:47 UTC | [#230 - feat: documento generado fase 4 y acciones](https://github.com/udistrital/plan_anual_auditoria_mid/pull/230) | @edwargl7 |
 | `release/6.0.1` | 2026-10-02 23:45:51 UTC | [#239 - devops: ajustes dependabot](https://github.com/udistrital/plan_anual_auditoria_mid/pull/239) | @edwargl7 |
 | `master` | 2026-06-19 03:33:23 UTC | [#233 - feat: Release/6.0.0](https://github.com/udistrital/plan_anual_auditoria_mid/pull/233) | @edwargl7 |

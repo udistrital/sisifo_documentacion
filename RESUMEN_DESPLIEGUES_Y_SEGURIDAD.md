@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-09 05:02:50 UTC`
+> *Estado generado automáticamente:* `2026-10-13 01:16:30 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -31,7 +31,7 @@
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 0, High: 3, Med: 0, Low: 1)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -41,8 +41,9 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#87 - fix: actualizar dependencias por alertas de Dependabot y pnpm audit](https://github.com/udistrital/usuario_rol_mf/pull/87) | `feature/corrDependabot` | `develop` | 2026-10-09 15:16:21 UTC | @diegobauto |
 
 
 ### Último Despliegue por Rama
@@ -83,7 +84,7 @@
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ⚠️ **5 PR(s) pendiente(s)** (5 en `develop`)
+- **Estado de Pull Requests:** ⚠️ **4 PR(s) pendiente(s)** (4 en `develop`)
 
 ### Estado CI
 
@@ -98,7 +99,6 @@
 | [#510 - Feature/mejoras visuales revision plan](https://github.com/udistrital/plan_anual_auditoria_mf/pull/510) | `feature/mejoras-visuales-revision-plan` | `develop` | 2026-10-08 16:53:51 UTC | @JorgeLo1 |
 | [#509 - fix: Cargue de auditorías en Asignar Auditorías del PAA](https://github.com/udistrital/plan_anual_auditoria_mf/pull/509) | `fix/cargue_asignar_auditorias` | `develop` | 2026-10-08 03:58:23 UTC | @Sgarcia8 |
 | [#508 - Feature/implementacion firma electronica](https://github.com/udistrital/plan_anual_auditoria_mf/pull/508) | `feature/implementacion_firma_electronica` | `develop` | 2026-10-07 03:30:16 UTC | @Sgarcia8 |
-| [#507 - fix: Ajustes en la recarga de los componentes, alertas y spinner](https://github.com/udistrital/plan_anual_auditoria_mf/pull/507) | `feature/ajustes_recarga_spinner` | `develop` | 2026-10-07 03:01:45 UTC | @CristianCGutierrezG |
 | [#495 - feat: implementar tour guiado del Plan Anual de Auditoría con driver.js](https://github.com/udistrital/plan_anual_auditoria_mf/pull/495) | `feature/implementar-tour-guiado` | `develop` | 2026-09-26 21:49:09 UTC | @RANDRESS23 |
 
 
@@ -106,7 +106,7 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-05 16:01:19 UTC | [#505 - fix: CORRECCIÓN DE PNPM](https://github.com/udistrital/plan_anual_auditoria_mf/pull/505) | @Mechaz123 |
+| `develop` | 2026-10-09 05:04:52 UTC | [#507 - fix: Ajustes en la recarga de los componentes, alertas y spinner](https://github.com/udistrital/plan_anual_auditoria_mf/pull/507) | @CristianCGutierrezG |
 | `release/8.0.0` | 2026-06-30 15:01:38 UTC | [#492 - feat: agregando modal de historial en registro-avances para foro](https://github.com/udistrital/plan_anual_auditoria_mf/pull/492) | @edwargl7 |
 | `release/8.1.0` | 2026-10-05 19:37:53 UTC | [#506 - feat: integración firma y ajuste cambios dependencias](https://github.com/udistrital/plan_anual_auditoria_mf/pull/506) | @edwargl7 |
 | `master` | 2026-10-02 12:36:00 UTC | [#504 - feat: Release/8.1.0 estabilización y mejora rendimiento auditores](https://github.com/udistrital/plan_anual_auditoria_mf/pull/504) | @edwargl7 |
@@ -115,7 +115,7 @@
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **68 total** (Crit: 1, High: 36, Med: 28, Low: 3)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -125,8 +125,9 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#240 - fix: https://github.com/udistrital/sisifo_documentacion/issues/913 ac…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/240) | `feature/885-dependabot` | `develop` | 2026-10-12 21:07:23 UTC | @Sgarcia8 |
 
 
 ### Último Despliegue por Rama
@@ -141,7 +142,7 @@
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 3, High: 0, Med: 1, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **3 total** (Crit: 2, High: 0, Med: 1, Low: 0)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
@@ -168,7 +169,7 @@
 ---
 
 ## [renderizado_plantillas_html](https://github.com/udistrital/renderizado_plantillas_html)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **38 total** (Crit: 0, High: 18, Med: 20, Low: 0)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
@@ -195,7 +196,7 @@
 ---
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **19 total** (Crit: 8, High: 5, Med: 6, Low: 0)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI

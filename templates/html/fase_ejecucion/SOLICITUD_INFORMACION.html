@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Solicitud de Información - Oficina de Control Interno</title>
+  <style>
+    @page {
+      size: 8.5in 14in;
+      margin: 0;
+      padding: 0;
+    }
+    @page :first {
+      margin-top: 0.5in;
+      margin-right: 0.5in;
+      margin-bottom: 1in;
+      margin-left: 0.51in;
+    }
+    @page :right {
+      margin-top: 0.5in;
+      margin-right: 0.5in;
+      margin-bottom: 1in;
+      margin-left: 0.5in;
+    }
+    @page :left {
+      margin-top: 0.5in;
+      margin-right: 0.5in;
+      margin-bottom: 1in;
+      margin-left: 0.5in;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 9pt;
+      line-height: 1.2;
+      margin: 0;
+      padding: 40px;
+    }
+    .fecha {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .recipient {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .referencia {
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .content {
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+    .signature {
+      text-align: left;
+      margin-top: 40px;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 8pt;
+    }
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 7pt;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+    .cont-info {
+      display: grid;
+    }
+  </style>
+</head>
+<body>
+  <div class="imagen">
+    <img style="width: 45%" src={{logoUDistrital}} alt="logo">
+  </div>
+  <div class="fecha">
+    <p><b>OCI-{{consecutivo_oci}}</b><br>Bogotá D.C., {{fecha}}</p>
+  </div>
+  <br>
+  <div class="recipient">
+    <p>Doctor(a)<br>
+      <b>
+        {% for dependencia in dependencias %}
+          {{ dependencia.responsable }}<br>
+          <i>{{ dependencia.nombre }}</i><br><br>
+        {% endfor %}
+      </b>
+      <b>UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS</b><br>{{ciudad}}
+    </p>
+  </div>
+  <br><br>
+  <div class="referencia">
+    Referencia:<br>
+    Anuncio {{referencia}}
+  </div>
+  <br>
+  <div class="content">
+    <p>En cumplimiento de las funciones propias de la Oficina de Control Interno y de lo establecido en el <i>Plan Anual de Auditorías PAA {{anoAuditoria}}</i>, se programó realizar a partir de la fecha <b>{{fecha_inicio}}</b>, una {{tipo_auditoria}}.</p>
+    <p>Para lo pertinente, remito un listado de los aspectos principales a tratar durante este proceso de {{tipo_auditoria}}, la cual será liderada por {{auditores}} auditor(es) de la Oficina de Control Interno.</p>
+    <p>Así mismo agradezco el suministro de información actualizada, ya sea en medio físico y/o magnético, sobre los siguientes temas:</p>
+    {{tema}}
+    <p>En el transcurso de la {{tipo_auditoria}} se podrán replantear algunos de los puntos propuestos y/o incluir otros aspectos, según las situaciones que se presenten.</p>
+  </div>
+  <div class="signature">
+    <p>Sin otro particular,</p>
+    <br>
+    <p><b>{{jefe_oci}}</b><br>Jefe Oficina de Control Interno</p>
+  </div>
+  <div class="footer">
+    <br>
+    <p>Copia: __________________________</p>
+    <br><br>
+    <table style="width: 60%; font-size: 6pt">
+      <tr>
+        <th></th>
+        <th><b>NOMBRE</b></th>
+        <th><b>CARGO</b></th>
+        <th><b>FIRMA</b></th>
+      </tr>
+      <tr>
+        <td>PROYECTÓ:</td>
+        <td>auditores</td>
+        <td>Profesional-CP</td>
+        <td><img src="firma-placeholder" alt="firma"></td>
+      </tr>
+    </table>
+  </div>
+  <br><br><br>
+  <hr>
+  <br>
+  <div class="contact-info">
+    <div style="max-width: 50%">
+      PBX 57(1)6013239300 Ext. 1811 - 1812<br>
+      Calle 13 No. 31 -75, Bogotá D.C. – Colombia<br>
+      <b>Acreditación Institucional en Alta Calidad.</b> Resolución No. 023653 del 10 de diciembre de 2021<br>
+    </div>
+    <div class="cont-info">
+      <img style="width: 100%" src={{contacto_oci}} alt="contacto">
+      <a href="mailto:auditor@udistrital.edu.co">auditor@udistrital.edu.co</a>
+    </div>
+  </div>
+</body>
+</html>

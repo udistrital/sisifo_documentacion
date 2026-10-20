@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de auditoría</title>
+
+    <style>
+        @page {
+            size: A4;
+            margin: 4.2cm 2.54cm 2.54cm 2.54cm;
+
+            @top-center {
+                content: element(encabezado-pagina);
+                width: 15.92cm;
+                vertical-align: middle;
+            }
+        }
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: center;
+            border: 1px solid black;
+            word-wrap: break-word;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .bg-gray {
+            padding: 4pt 2pt;
+            font-weight: bold;
+            background-color: #d8d9d9;
+        }
+
+        .table-data {
+            font-size: 9pt;
+        }
+
+        .title {
+            width: 100%;
+            max-width: 100%;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .text-justify {
+            text-align: justify;
+            padding: 4pt;
+            white-space: pre-line;
+        }
+
+        .text-left {
+            text-align: left;
+            padding: 4pt;
+        }
+
+        .no-margin-no-padding {
+            margin: 0;
+            padding: 0;
+        }
+        .ql-align-center {
+            text-align: center;
+        }
+
+        .ql-align-right {
+            text-align: right;
+        }
+
+        .ql-align-left {
+            text-align: left;
+        }
+
+        .ql-align-justify {
+            text-align: justify;
+        }
+        p {
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        .ql-align-center,
+        .ql-align-right,
+        .ql-align-left,
+        .ql-align-justify {
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        /* Encabezado repetido en cada hoja (running element de WeasyPrint) */
+        .encabezado-pagina {
+            position: running(encabezado-pagina);
+            width: 100%;
+        }
+
+        .encabezado-pagina table {
+            margin-bottom: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 8pt;
+        }
+
+        .encabezado-pagina td {
+            padding: 3pt 4pt;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .encabezado-pagina td.logo {
+            padding: 4pt;
+        }
+
+        .encabezado-pagina td.logo img {
+            max-width: 100%;
+            max-height: 2.2cm;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO DE PÁGINA (se repite en cada hoja) -->
+    <div class="encabezado-pagina">
+        <table>
+            <tr>
+                <td class="logo" rowspan="3" style="width: 20%;">
+                    <img src="{{ logoUDistrital }}" alt="Universidad Distrital">
+                </td>
+                <td style="width: 35%;"><b>INFORME DE AUDITORIA</b></td>
+                <td style="width: 25%;">Código: EC-PR-002-FR-010</td>
+                <td class="logo" rowspan="3" style="width: 20%;">
+                    <img src="{{ logoSIGUD }}" alt="SIGUD">
+                </td>
+            </tr>
+            <tr>
+                <td>Macroproceso: Evaluación y Control</td>
+                <td>Versión: 001</td>
+            </tr>
+            <tr>
+                <td>Proceso: Gestión de la Evaluación y el Control</td>
+                <td>Fecha de Aprobación:<br>2025/09/18</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ENCABEZADO -->
+    <div>
+        <table>
+            <tr>
+                <td class="bg-gray" style="width: 25%;">
+                    Consecutivo No.
+                </td>
+
+                <td class="table-data" style="width: 10%;">
+                    {{ consecutivo }}
+                </td>
+
+                <td class="bg-gray" style="width: 25%;">
+                    Fecha de Emisión del Informe
+                </td>
+
+                <td class="bg-gray">
+                    Día
+                </td>
+
+                <td class="table-data">
+                    {{ fecha_emision.dia }}
+                </td>
+
+                <td class="bg-gray">
+                    Mes
+                </td>
+
+                <td class="table-data">
+                    {{ fecha_emision.mes }}
+                </td>
+
+                <td class="bg-gray">
+                    Año
+                </td>
+
+                <td class="table-data">
+                    {{ fecha_emision.anio }}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- TITULO -->
+    <div class="title">
+        <h4>{{ informe.titulo }}</h4>
+    </div>
+
+    <!-- DATOS DEL INFORME -->
+    <div>
+        <table>
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    style="width: 30%;"
+                >
+                    Macroproceso:
+                </td>
+
+                <td
+                    class="table-data"
+                    style="width: 25%;"
+                >
+                    {{ macroproceso or informe.macroproceso }}
+                </td>
+
+                <td
+                    class="bg-gray text-left"
+                    style="width: 20%;"
+                >
+                    Proceso:
+                </td>
+
+                <td
+                    class="table-data"
+                    style="width: 25%;"
+                >
+                    {{ proceso or informe.proceso }}
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    rowspan="2"
+                    style="width: 30%;"
+                >
+                    Dependencia:
+                </td>
+
+                <td
+                    class="table-data"
+                    rowspan="2"
+                    style="width: 25%;"
+                >
+                    {% if informe.dependencias %}{{ informe.dependencias | map(attribute='nombre') | join(', ') }}{% else %}{{ informe.dependencia }}{% endif %}
+                </td>
+
+                <td
+                    class="bg-gray text-left"
+                    style="width: 20%;"
+                >
+                    Líder:
+                </td>
+
+                <td
+                    class="table-data"
+                    style="width: 25%;"
+                >
+                    {{ informe.lider }}
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    style="width: 20%;"
+                >
+                    Responsable:
+                </td>
+
+                <td class="table-data">
+                    {{ informe.responsable }}
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    style="width: 30%;"
+                >
+                    Objetivo:
+                </td>
+
+                <td
+                    class="table-data text-justify"
+                    colspan="3"
+                    style="width: 70%;"
+                >
+                    {{ informe.objetivo }}
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    style="width: 30%;"
+                >
+                    Alcance:
+                </td>
+
+                <td
+                    class="table-data text-justify"
+                    colspan="3"
+                    style="width: 70%;"
+                >
+                    {{ informe.alcance }}
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    style="width: 30%;"
+                >
+                    Criterios:
+                </td>
+
+                <td
+                    class="table-data text-justify"
+                    colspan="3"
+                    style="width: 70%;"
+                >
+                    {{ informe.criterios }}
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    class="bg-gray text-left"
+                    style="width: 30%;"
+                >
+                    Muestra (opcional):
+                </td>
+
+                <td
+                    class="table-data text-justify"
+                    colspan="3"
+                    style="width: 70%;"
+                >
+                {% if informe.muestra %}
+                    {{ informe.muestra }}
+                {% endif %}
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- RESULTADOS -->
+    <div style="margin-top: 25pt;">
+        <table>
+            <tr>
+                <td class="bg-gray" colspan="4">
+                    Resultados
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ASPECTOS GENERALES -->
+    <div>
+        <div class="text-left no-margin-no-padding">
+            <h4 class="no-margin-no-padding">
+                1. ASPECTOS GENERALES
+            </h4>
+        </div>
+
+        <div class="text-justify">
+            <p>
+                <i>{{ aspectos_generales }}</i>
+            </p>
+        </div>
+    </div>
+
+    <!-- TEMAS Y SUBTEMAS -->
+    {% set ns = namespace(hallazgos=[]) %}
+
+    <div>
+
+        {% for tema in temas %}
+
+            {% set tema_idx = loop.index + 1 %}
+
+            <!-- TEMA -->
+            <div class="text-left no-margin-no-padding">
+                <h4 class="no-margin-no-padding">
+                    {{ tema_idx }}. {{ tema.titulo }}
+                </h4>
+            </div>
+
+            {% if tema.descripcion_titulo %}
+                {{ tema.descripcion_titulo }}
+            {% endif %}
+
+            {% for subtema in tema.subtemas %}
+
+                {% set subtema_idx = loop.index %}
+
+                <!-- SUBTEMA -->
+                <div class="text-left no-margin-no-padding">
+                    <h4 style="margin-bottom: 5px;">
+                        {{ tema_idx }}.{{ loop.index }}
+                        {{ subtema.titulo }}
+                    </h4>
+                </div>
+
+                <!-- HALLAZGOS -->
+                {% for hallazgo in subtema.hallazgos %}
+
+                    {% set _ = ns.hallazgos.append({
+                        'numero': tema_idx ~ '.' ~ subtema_idx ~ '.' ~ loop.index,
+                        'criterio': hallazgo.criterio,
+                        'titulo': hallazgo.titulo,
+                    }) %}
+
+                    <div class="text-justify no-margin-no-padding">
+                        <p class="no-margin-no-padding">
+
+                            <b>
+                                {{ tema_idx }}.{{ subtema_idx }}.{{ loop.index }}
+                                Hallazgo
+                            </b>
+
+                            <i>
+                                "{{ hallazgo.titulo }}".
+
+                                <b>(Descripción)</b>
+
+                                {{ hallazgo.descripcion }}
+                            </i>
+
+                        </p>
+                    </div>
+
+                {% endfor %}
+
+            {% endfor %}
+
+        {% endfor %}
+
+    </div>
+
+    <!-- CUADRO DE RESUMEN DE HALLAZGOS -->
+
+    {% set obs_idx = temas | length + 2 %}
+
+    <div>
+
+        <div class="text-left no-margin-no-padding">
+            <h4 class="no-margin-no-padding">
+                {{ obs_idx }}. CUADRO RESÚMEN DE HALLAZGOS
+            </h4>
+        </div>
+
+        <table style="margin-top: 25pt;">
+
+            <tr>
+                <th>
+                    N° DE HALLAZGO
+                </th>
+
+                <th>
+                    REQUISITO
+                </th>
+
+                <th>
+                    DESCRIPCIÓN DEL HALLAZGO
+                </th>
+            </tr>
+
+            {% for hallazgo in ns.hallazgos %}
+
+                <tr>
+
+                    <td>
+                        {{ hallazgo.numero }}
+                    </td>
+
+                    <td>
+                        {{ hallazgo.criterio }}
+                    </td>
+
+                    <td class="text-justify">
+                        {{ hallazgo.titulo }}
+                    </td>
+
+                </tr>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+
+    <!-- INFORME FINAL -->
+
+    {% if informe_final %}
+
+        <div>
+
+            <div class="text-left no-margin-no-padding">
+                <h4 class="no-margin-no-padding">
+                    {{ obs_idx + 1 }}. INFORME FINAL
+                </h4>
+            </div>
+
+            <div class="text-justify">
+                <p>
+                    {{ informe_final }}
+                </p>
+            </div>
+
+        </div>
+
+    {% endif %}
+
+    <!-- OBSERVACIONES Y CONCLUSIONES -->
+
+    {% if observaciones_conclusiones %}
+
+        <div>
+
+            <div class="text-left no-margin-no-padding">
+                <h4 class="no-margin-no-padding">
+                    <b>
+                        {{ obs_idx + 2 }}. OBSERVACIONES Y CONCLUSIONES
+                    </b>
+                </h4>
+            </div>
+
+            <div class="text-justify no-margin-no-padding">
+                <p class="no-margin-no-padding">
+                    {{ observaciones_conclusiones }}
+                </p>
+            </div>
+
+            <div class="text-left no-margin-no-padding">
+                <h4 class="no-margin-no-padding">
+                    <b>NOTAS:</b>
+                </h4>
+            </div>
+
+            <div class="text-justify no-margin-no-padding">
+                <p class="no-margin-no-padding">
+                    {{ notas }}
+                </p>
+            </div>
+
+        </div>
+
+    {% endif %}
+
+    <!-- FINAL DEL DOCUMENTO -->
+
+    <div>
+
+        <p>
+            Atentamente,
+        </p>
+
+        <h4 class="text-left no-margin-no-padding">
+            {{ jefe_oci }}
+        </h4>
+
+        <p class="no-margin-no-padding">
+            Jefe Oficina de Control Interno
+        </p>
+
+        <table style="margin-top: 30pt;">
+
+            <tr>
+
+                <th
+                    class="bg-gray"
+                    style="width: 20%;"
+                >
+                    Representante Alta Dirección
+                </th>
+
+                <th
+                    class="bg-gray"
+                    style="width: 40%;"
+                >
+                    Jefe Oficina de Control Interno
+                </th>
+
+                <th
+                    class="bg-gray"
+                    style="width: 40%;"
+                >
+                    Auditor Responsable
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    N.A
+                </td>
+
+                <td style="font-size: 8pt;">
+                    <b>
+                        {{ jefe_oci }}
+                    </b>
+                </td>
+
+                <td>
+
+                    <img
+                        src=""
+                        alt=""
+                        style="width: 150px; height: auto;"
+                    />
+
+                    <p style="margin-top: 45pt;">
+                        {{ auditor_responsable }}
+                    </p>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>

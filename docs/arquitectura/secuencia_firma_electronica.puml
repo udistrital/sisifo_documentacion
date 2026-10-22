@@ -1,0 +1,87 @@
+@startuml secuencia_firma_electronica
+
+title Diagrama de Secuencia de Firma Electrónica de Documentos en Sísifo v2
+
+skinparam actorStyle hollow
+
+actor "Jefe OCI" as Jefe
+participant "PlanAnualAuditoriaMf" as Mf
+participant "PlanAnualAuditoriaMid" as Mid
+participant "PlanAnualAuditoriaCrud" as Crud
+participant "TercerosCrud" as Terceros
+participant "GestorDocumentalMid" as Gestor
+participant Nuxeo
+participant "FirmaElectronicaMid" as Firma
+participant "DocumentosCrud" as Documentos
+participant "AWS Secrets Manager" as Secrets
+
+
+Jefe -> Mf ++: Aprobar (PAA, Programa de trabajo, Oficio de solicitud de información o Informe final)
+
+  == Preparar la firma ==
+
+  opt Documento de una auditoría
+    Mf -> Mid : Obtener auditoría (consecutivo OCI, vigencia)
+    Mid --> Mf : OK
+  end
+
+  Mf -> Crud : Consultar documento vigente
+  Crud --> Mf : OK
+
+  Mf -> Terceros : Consultar firmante (usuario autenticado)
+  Terceros --> Mf : OK
+
+  alt Documento ya firmado
+    Mf -> Gestor : Obtener PDF original sin firma
+  else Documento sin firmar
+    Mf -> Gestor : Obtener PDF vigente
+  end
+  Gestor -> Nuxeo : Descargar archivo
+  Nuxeo --> Gestor : OK
+  Gestor --> Mf : PDF en base64
+
+  == Firmar el documento ==
+
+  Mf -> Firma ++: Firmar documento (etapa final)
+
+    Firma -> Documentos : Validar tipo de documento
+    Documentos --> Firma : OK
+
+    Firma -> Documentos : Registrar documento
+    Documentos --> Firma : CREATED
+
+    Firma -> Documentos : Registrar firma electrónica
+    Documentos --> Firma : CREATED
+
+    Firma -> Secrets : Obtener secreto del QR
+    Secrets --> Firma : OK
+
+    Firma -> Firma : Estampar firmante, fecha y QR en el PDF
+    Firma -> Firma : Generar código de autenticidad
+
+    Firma -> Documentos : Actualizar firma electrónica
+    Documentos --> Firma : OK
+
+    Firma -> Gestor : Cargar PDF firmado
+    Gestor -> Nuxeo : Guardar archivo
+    Nuxeo --> Gestor : OK
+    Gestor --> Firma : Id y enlace del PDF firmado
+
+  return Id y enlace del PDF firmado
+
+  == Registrar el resultado ==
+
+  alt Firma exitosa
+    Mf -> Crud : Actualizar referencia del documento (marcado como firmado)
+    Crud --> Mf : OK
+
+    Mf -> Crud : Registrar cambio de estado
+    Crud --> Mf : CREATED
+    Mf --> Jefe : Confirmar aprobación
+  else Error en la firma
+    Mf --> Jefe : Mostrar error (el estado no cambia)
+  end
+
+deactivate Mf
+
+@enduml

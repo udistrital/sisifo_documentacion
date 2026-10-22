@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Carta de presentación</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.2in;
+        }
+        @page :first {
+            margin-top: 0.5in;
+            margin-right: 1in;
+            margin-bottom: 0.5in;
+            margin-left: 0.5in;
+        }
+        @page :right {
+            margin-top: 0.5in;
+            margin-right: 1in;
+            margin-bottom: 0.5in;
+            margin-left: 0.5in;
+        }
+        @page :left {
+            margin-top: 0.5in;
+            margin-right: 1in;
+            margin-bottom: 0.5in;
+            margin-left: 0.5in;
+        }
+        .titulo {
+            text-align: center;
+        }
+        body {
+            font-size: 9pt;
+            font-family: Arial, sans-serif;
+            line-height: 1.2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            margin-bottom: 4pt;
+            max-width: 100%;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .logo img {
+            max-width: 90%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td rowspan="3" style="width: 20%" class="logo">
+                <img src="{{ logoUDistrital }}" alt="Logo de la Universidad" />
+            </td>
+            <td style="width: 40%" class="text-center">
+                <b>CARTA DE REPRESENTACIÓN</b>
+            </td>
+            <td style="width: 20%">
+                Código: EC-PR-002- FR-007
+            </td>
+            <td rowspan="3" style="width: 20%" class="logo">
+                <img src="{{ logoSIGUD }}" alt="Logo SIGUD" />
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center">
+                Macroproceso: Evaluación y Control
+            </td>
+            <td>
+                Versión: 02
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center">
+                Proceso: Gestión de la Evaluación y el Control
+            </td>
+            <td>
+                Fecha de Aprobación: 05/12/2022
+            </td>
+        </tr>
+    </table>
+
+    <br /><br />
+
+    <div class="titulo">
+        <h4>CARTA DE REPRESENTACIÓN</h4>
+    </div>
+
+    <br /><br />
+
+    <div>
+        <p>
+            Señores:<br />
+            OFICINA DE CONTROL INTERNO<br />
+            UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS<br />
+            {{ciudad}}
+        </p>
+        <p>Respetados señores,</p>
+        <p>
+            Mediante la presente, me permito confirmar que, en el marco de la auditoría que realizará la Oficina de Control Interno a {{dependencia}}, programada para el día {{dia}} de {{mes}} del año {{anio}}, y cuyo objetivo es {{objetivo}}, declaro lo siguiente:
+        </p>
+        <p>1) Somos responsables de la oportuna preparación, presentación y consistencia de la información que será entregada en el marco de la auditoría a la Oficina de Control Interno.</p>
+        <p>2) Se hará entrega oficialmente de toda la información relacionada con la gestión del proceso a evaluar, atendiendo los requerimientos hechos por la Oficina de Control Interno.</p>
+        <p>3) La información a suministrar será válida, integral y completa para los propósitos del proceso auditor.</p>
+        <br />
+        <p>Cordialmente,</p>
+        <br />
+        <p>
+            <strong>{{ jefe_dependencia }}<br/><i>{{ dependencia }}</i></strong>
+        </p>
+    </div>
+</body>
+</html>

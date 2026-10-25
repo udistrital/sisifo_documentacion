@@ -40,13 +40,13 @@ Referencia: [requisitos oficiales para Linux](https://docs.sonarsource.com/sonar
 Ubícate en la carpeta principal:
 
 ```bash
-cd "/{path}/proyecto_sisifo"
+cd "/{path}/proyecto_x"
 ```
 
 Crea un archivo llamado `compose.sonar.yml` con este contenido:
 
 ```yaml
-name: sisifo-sonar
+name: x-sonar
 
 services:
   db:
@@ -88,7 +88,7 @@ services:
 
 networks:
   default:
-    name: sisifo-sonar-net
+    name: x-sonar-net
 
 volumes:
   postgres_data:
@@ -153,7 +153,7 @@ Desde la carpeta principal, ejecuta:
 
 ```bash
 docker run --rm \
-  --network sisifo-sonar-net \
+  --network x-sonar-net \
   --user "$(id -u):$(id -g)" \
   -e SONAR_TOKEN \
   -e SONAR_USER_HOME=/tmp/sonar \
@@ -187,7 +187,7 @@ for config in "$PWD"/*/sonar-project.properties; do
   printf '\nAnalizando: %s\n' "${proyecto##*/}"
 
   if docker run --rm \
-    --network sisifo-sonar-net \
+    --network x-sonar-net \
     --user "$(id -u):$(id -g)" \
     -e SONAR_TOKEN \
     -e SONAR_USER_HOME=/tmp/sonar \

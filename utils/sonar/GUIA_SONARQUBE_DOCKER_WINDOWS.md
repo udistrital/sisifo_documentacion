@@ -55,7 +55,7 @@ Referencia: [límites del host Linux de SonarQube](https://docs.sonarsource.com/
 Descarga o copia todos los repositorios dentro de una carpeta común. Por ejemplo:
 
 ```text
-C:\Proyectos\proyecto_sisifo\
+C:\Proyectos\proyecto_x\
 ├── compose.sonar.yml
 ├── exportar_metricas_sonar.py
 ├── usuario_rol_crud\sonar-project.properties
@@ -66,7 +66,7 @@ C:\Proyectos\proyecto_sisifo\
 Reemplaza la ruta de ejemplo por la ubicación real en tu equipo:
 
 ```powershell
-Set-Location 'C:\Proyectos\proyecto_sisifo'
+Set-Location 'C:\Proyectos\proyecto_x'
 ```
 
 Verifica qué proyectos tienen configuración:
@@ -82,7 +82,7 @@ Get-ChildItem -Directory | Where-Object {
 Crea `compose.sonar.yml` en la carpeta principal con el siguiente contenido. Si ya tienes este archivo con la configuración equivalente, reutilízalo.
 
 ```yaml
-name: sisifo-sonar
+name: x-sonar
 
 services:
   db:
@@ -124,7 +124,7 @@ services:
 
 networks:
   default:
-    name: sisifo-sonar-net
+    name: x-sonar-net
 
 volumes:
   postgres_data:
@@ -173,7 +173,7 @@ Desde la carpeta principal:
 $proyecto = (Resolve-Path '.\usuario_rol_crud').Path
 $scannerArgs = @(
     'run', '--rm',
-    '--network', 'sisifo-sonar-net',
+    '--network', 'x-sonar-net',
     '-e', 'SONAR_TOKEN',
     '-e', 'SONAR_USER_HOME=/tmp/sonar',
     '--mount', "type=bind,source=$proyecto,target=/usr/src",
@@ -211,7 +211,7 @@ foreach ($proyecto in $proyectos) {
     Write-Host "Analizando: $($proyecto.Name)"
     $scannerArgs = @(
         'run', '--rm',
-        '--network', 'sisifo-sonar-net',
+        '--network', 'x-sonar-net',
         '-e', 'SONAR_TOKEN',
         '-e', 'SONAR_USER_HOME=/tmp/sonar',
         '--mount', "type=bind,source=$($proyecto.FullName),target=/usr/src",

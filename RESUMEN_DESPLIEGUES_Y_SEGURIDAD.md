@@ -1,16 +1,16 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-25 02:14:31 UTC`
+> *Estado generado automáticamente:* `2026-10-25 14:37:57 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **5 total** (Crit: 1, High: 3, Med: 1, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.0.1 | Master / Main |
-| -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
+| Develop | Release/1.0.2 | Release/1.0.1 | Master / Main |
+| -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -22,21 +22,22 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-07 22:32:33 UTC | [#47 - feat: Release/1.0.0 actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/47) | @edwargl7 |
+| `develop` | 2026-10-25 05:33:27 UTC | [#52 - devops: update image base drone too 24.22.1-alpine](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/52) | @edwargl7 |
 | `release/1.0.1` | 2026-10-08 11:40:50 UTC | [#48 - devops: actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/48) | @edwargl7 |
-| `master` | 2026-06-19 03:15:19 UTC | [#43 - feat: ajuste de estilos](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/43) | @edwargl7 |
+| `release/1.0.2` | 2026-10-25 05:34:07 UTC | [#53 - devops: update image base drone too 24.22.1-alpine](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/53) | @edwargl7 |
+| `master` | 2026-10-25 05:36:13 UTC | [#54 - devops: update image base drone too 24.22.1-alpine Release/1.0.2](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/54) | @edwargl7 |
 
 ---
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **7 total** (Crit: 0, High: 1, Med: 5, Low: 1)
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.0.2 | Master / Main |
-| -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) |
+| Develop | Release/1.0.3 | Release/1.0.2 | Master / Main |
+| -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.3)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_mf/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -48,8 +49,9 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-15 17:51:21 UTC | [#90 - fix: override handlebars  a versión mayor udistrital/sisifo_documenta…](https://github.com/udistrital/usuario_rol_mf/pull/90) | @diegobauto |
-| `master` | 2026-10-13 02:36:11 UTC | [#89 - fix: Release/1.0.1 actualizar dependencias por alertas de Dependabot y pnpm audit](https://github.com/udistrital/usuario_rol_mf/pull/89) | @edwargl7 |
+| `develop` | 2026-10-25 14:03:27 UTC | [#93 - devops: actualización librerias dependabot](https://github.com/udistrital/usuario_rol_mf/pull/93) | @edwargl7 |
+| `release/1.0.3` | 2026-10-25 14:04:44 UTC | [#94 - devops: actualización librerias dependabot](https://github.com/udistrital/usuario_rol_mf/pull/94) | @edwargl7 |
+| `master` | 2026-10-25 14:18:33 UTC | [#95 - devops: actualizadas dependencias reporte de seguridad Release/1.0.3](https://github.com/udistrital/usuario_rol_mf/pull/95) | @edwargl7 |
 
 ---
 

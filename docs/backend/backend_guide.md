@@ -1,6 +1,5 @@
 # Guías de trabajo para backend — Sísifo / OAS
-
-**Fecha de consulta de fuentes:** 25 de octubre de 2026 (America/Bogota).  
+ 
 **Alcance:** selección de tecnologías, contratos REST, persistencia y despliegues de microservicios.  
 **Estado:** propuesta técnica de trabajo para el proyecto, basada en los lineamientos públicos de la Universidad Distrital; no constituye una nueva norma institucional aprobada.
 

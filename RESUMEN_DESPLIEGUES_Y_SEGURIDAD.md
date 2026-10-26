@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-25 14:37:57 UTC`
+> *Estado generado automáticamente:* `2026-10-26 02:56:33 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -82,49 +82,43 @@
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ⚠️ **3 PR(s) pendiente(s)** (3 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/8.3.0 | Release/8.2.0 | Release/8.1.0 | Master / Main |
-| -- | -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.3.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.2.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) |
+| Develop | Release/8.4.0 | Release/8.3.0 | Master / Main |
+| -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.4.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/release/8.3.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mf/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#519 - Rediseño de registro de avances y calificación en Gestión de acciones (#924, #925)](https://github.com/udistrital/plan_anual_auditoria_mf/pull/519) | `feature/rediseno-gestion-acciones` | `develop` | 2026-10-22 15:04:20 UTC | @JorgeLo1 |
-| [#518 - Actualizacion de roles, y estados](https://github.com/udistrital/plan_anual_auditoria_mf/pull/518) | `feature/actualizacion_Estados_roles` | `develop` | 2026-10-21 22:53:16 UTC | @CristianCGutierrezG |
-| [#512 - Feature/implementacion formulacion planes auditor/auditado](https://github.com/udistrital/plan_anual_auditoria_mf/pull/512) | `feature/implementacion_formulacion_planes_auditor` | `develop` | 2026-10-14 21:21:12 UTC | @Sgarcia8 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-16 01:29:17 UTC | [#515 - fix: aumenta el budget de estilos por componente para el build de producción udistrital/sisifo_documentacion#912](https://github.com/udistrital/plan_anual_auditoria_mf/pull/515) | @JorgeLo1 |
-| `release/8.1.0` | 2026-10-05 19:37:53 UTC | [#506 - feat: integración firma y ajuste cambios dependencias](https://github.com/udistrital/plan_anual_auditoria_mf/pull/506) | @edwargl7 |
-| `release/8.2.0` | 2026-10-16 01:30:43 UTC | [#516 - feat: integrado tour y ajuste de documentos](https://github.com/udistrital/plan_anual_auditoria_mf/pull/516) | @edwargl7 |
-| `master` | 2026-10-16 02:20:17 UTC | [#517 - feat: Release/8.3.0](https://github.com/udistrital/plan_anual_auditoria_mf/pull/517) | @edwargl7 |
+| `develop` | 2026-10-26 02:28:17 UTC | [#518 - Actualizacion de roles, y estados](https://github.com/udistrital/plan_anual_auditoria_mf/pull/518) | @CristianCGutierrezG |
+| `master` | 2026-10-14 18:03:50 UTC | [#511 - feat: Release/8.1.0](https://github.com/udistrital/plan_anual_auditoria_mf/pull/511) | @edwargl7 |
 
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 1, Low: 0)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/6.0.2 | Release/6.0.1 | Master / Main |
+| Develop | Release/6.1.0 | Release/6.0.2 | Master / Main |
 | -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#241 - Feature/implementacion formulacion planes auditor](https://github.com/udistrital/plan_anual_auditoria_mid/pull/241) | `feature/implementacion_formulacion_planes_auditor` | `develop` | 2026-10-14 21:24:35 UTC | @Sgarcia8 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
@@ -132,38 +126,34 @@
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
 | `develop` | 2026-10-23 22:10:06 UTC | [#245 - Filtro opcional estado_plan_id en GET gestion-accion (#924, #925)](https://github.com/udistrital/plan_anual_auditoria_mid/pull/245) | @JorgeLo1 |
-| `release/6.0.1` | 2026-10-02 23:45:51 UTC | [#239 - devops: ajustes dependabot](https://github.com/udistrital/plan_anual_auditoria_mid/pull/239) | @edwargl7 |
 | `release/6.0.2` | 2026-10-16 01:45:32 UTC | [#242 - fix: AJUSTE DESPLIEGUE IMAGENES](https://github.com/udistrital/plan_anual_auditoria_mid/pull/242) | @Mechaz123 |
 | `master` | 2026-10-16 02:26:57 UTC | [#244 - feat: Release/6.0.2](https://github.com/udistrital/plan_anual_auditoria_mid/pull/244) | @edwargl7 |
 
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **4 total** (Crit: 3, High: 0, Med: 1, Low: 0)
-- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (1 en `develop`, 1 en `master`)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **7 total** (Crit: 0, High: 2, Med: 3, Low: 2)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
+| Develop | Release/1.1.0 | Release/1.0.1 | Master / Main |
 | -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#172 - Feature/implementacion formulacion planes auditor](https://github.com/udistrital/plan_anual_auditoria_crud/pull/172) | `feature/implementacion_formulacion_planes_auditor` | `develop` | 2026-10-14 21:26:07 UTC | @Sgarcia8 |
-| [#171 - devops: agrega overrides de handlebars y proxy-addr para corregir alertas de dependabot udistrital/sisifo_documentacion#914](https://github.com/udistrital/plan_anual_auditoria_crud/pull/171) | `feature/ajustes-dependabot` | `master` | 2026-10-14 20:29:01 UTC | @JorgeLo1 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-09-24 14:38:00 UTC | [#168 - fix: revierte instalacion de dependencias dentro del build de Docker para evitar fallo de DNS udistrital/sisifo_documentacion#886](https://github.com/udistrital/plan_anual_auditoria_crud/pull/168) | @JorgeLo1 |
-| `release/1.0.0` | 2026-06-30 15:01:03 UTC | [#166 - feat: ajuste modelo y diccionario de datos](https://github.com/udistrital/plan_anual_auditoria_crud/pull/166) | @edwargl7 |
+| `develop` | 2026-10-26 02:51:42 UTC | [#172 - Feature/implementacion formulacion planes auditor](https://github.com/udistrital/plan_anual_auditoria_crud/pull/172) | @Sgarcia8 |
 | `release/1.0.1` | 2026-09-25 14:26:16 UTC | [#169 - devops: ajuste drone](https://github.com/udistrital/plan_anual_auditoria_crud/pull/169) | @edwargl7 |
-| `master` | 2026-10-02 23:44:52 UTC | [#170 - feat: Release/1.0.1](https://github.com/udistrital/plan_anual_auditoria_crud/pull/170) | @edwargl7 |
+| `master` | 2026-10-26 02:50:56 UTC | [#171 - devops: agrega overrides de handlebars y proxy-addr para corregir alertas de dependabot udistrital/sisifo_documentacion#914](https://github.com/udistrital/plan_anual_auditoria_crud/pull/171) | @JorgeLo1 |
 
 ---
 
@@ -196,7 +186,7 @@
 ---
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **20 total** (Crit: 8, High: 6, Med: 6, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **11 total** (Crit: 6, High: 2, Med: 3, Low: 0)
 - **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI

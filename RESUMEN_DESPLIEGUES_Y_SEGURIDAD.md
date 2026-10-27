@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-26 02:56:33 UTC`
+> *Estado generado automáticamente:* `2026-10-27 12:52:07 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -82,7 +82,7 @@
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -92,8 +92,9 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#520 - Feature/mejoras visuales gestion consulta am](https://github.com/udistrital/plan_anual_auditoria_mf/pull/520) | `feature/mejoras_visuales_gestion_consulta_AM` | `develop` | 2026-10-27 02:26:47 UTC | @Sgarcia8 |
 
 
 ### Último Despliegue por Rama
@@ -107,7 +108,7 @@
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 1, Low: 0)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **4 PR(s) pendiente(s)** (2 en `develop`, 2 en `master`)
 
 ### Estado CI
 
@@ -117,8 +118,12 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#249 - Feature/ajustes dependabot dockerfile](https://github.com/udistrital/plan_anual_auditoria_mid/pull/249) | `feature/ajustes_dependabot_dockerfile` | `develop` | 2026-10-27 02:57:20 UTC | @Sgarcia8 |
+| [#248 - Feature/mejoras visuales gestion acciones](https://github.com/udistrital/plan_anual_auditoria_mid/pull/248) | `feature/mejoras_visuales_gestion_acciones` | `master` | 2026-10-27 02:42:29 UTC | @Sgarcia8 |
+| [#247 - Feature/implemtacion nueva plantilla informe](https://github.com/udistrital/plan_anual_auditoria_mid/pull/247) | `feature/implemtacion_nueva_plantilla_informe` | `master` | 2026-10-27 02:35:53 UTC | @Sgarcia8 |
+| [#246 - fix: Consulta de auditorías sin filtros de padre excedía el límite de…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/246) | `fix/cargue_asignar_auditorias` | `develop` | 2026-10-27 02:32:44 UTC | @Sgarcia8 |
 
 
 ### Último Despliegue por Rama
@@ -133,7 +138,7 @@
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **7 total** (Crit: 0, High: 2, Med: 3, Low: 2)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -143,8 +148,9 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#173 - fix: Node 24.22-alpine y parche de dependencias vulnerables](https://github.com/udistrital/plan_anual_auditoria_crud/pull/173) | `feature/actualizacion_drone_docker` | `develop` | 2026-10-26 21:27:23 UTC | @CristianCGutierrezG |
 
 
 ### Último Despliegue por Rama
@@ -186,8 +192,8 @@
 ---
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **11 total** (Crit: 6, High: 2, Med: 3, Low: 0)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **20 total** (Crit: 8, High: 6, Med: 6, Low: 0)
+- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (1 en `develop`, 1 en `master`)
 
 ### Estado CI
 
@@ -199,6 +205,7 @@
 
 | PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
 |---|---|---|---|---|
+| [#33 - Feature/actualizacion go](https://github.com/udistrital/plantillas_mid/pull/33) | `feature/actualizacion_go` | `develop` | 2026-10-27 03:18:40 UTC | @Sgarcia8 |
 | [#32 - feat: release/1.0.1](https://github.com/udistrital/plantillas_mid/pull/32) | `release/1.0.1` | `master` | 2026-10-16 03:16:26 UTC | @CristianCGutierrezG |
 
 

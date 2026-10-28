@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-27 12:52:07 UTC`
+> *Estado generado automáticamente:* `2026-10-28 09:36:38 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -82,7 +82,7 @@
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -92,23 +92,22 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#520 - Feature/mejoras visuales gestion consulta am](https://github.com/udistrital/plan_anual_auditoria_mf/pull/520) | `feature/mejoras_visuales_gestion_consulta_AM` | `develop` | 2026-10-27 02:26:47 UTC | @Sgarcia8 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-26 02:28:17 UTC | [#518 - Actualizacion de roles, y estados](https://github.com/udistrital/plan_anual_auditoria_mf/pull/518) | @CristianCGutierrezG |
+| `develop` | 2026-10-28 03:32:42 UTC | [#520 - Feature/mejoras visuales gestion consulta am](https://github.com/udistrital/plan_anual_auditoria_mf/pull/520) | @Sgarcia8 |
 | `master` | 2026-10-14 18:03:50 UTC | [#511 - feat: Release/8.1.0](https://github.com/udistrital/plan_anual_auditoria_mf/pull/511) | @edwargl7 |
 
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 1, Low: 0)
-- **Estado de Pull Requests:** ⚠️ **4 PR(s) pendiente(s)** (2 en `develop`, 2 en `master`)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **8 total** (Crit: 0, High: 2, Med: 3, Low: 3)
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -120,25 +119,22 @@
 
 | PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
 |---|---|---|---|---|
-| [#249 - Feature/ajustes dependabot dockerfile](https://github.com/udistrital/plan_anual_auditoria_mid/pull/249) | `feature/ajustes_dependabot_dockerfile` | `develop` | 2026-10-27 02:57:20 UTC | @Sgarcia8 |
-| [#248 - Feature/mejoras visuales gestion acciones](https://github.com/udistrital/plan_anual_auditoria_mid/pull/248) | `feature/mejoras_visuales_gestion_acciones` | `master` | 2026-10-27 02:42:29 UTC | @Sgarcia8 |
-| [#247 - Feature/implemtacion nueva plantilla informe](https://github.com/udistrital/plan_anual_auditoria_mid/pull/247) | `feature/implemtacion_nueva_plantilla_informe` | `master` | 2026-10-27 02:35:53 UTC | @Sgarcia8 |
-| [#246 - fix: Consulta de auditorías sin filtros de padre excedía el límite de…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/246) | `fix/cargue_asignar_auditorias` | `develop` | 2026-10-27 02:32:44 UTC | @Sgarcia8 |
+| [#250 - Feature/implemtacion nueva plantilla informe](https://github.com/udistrital/plan_anual_auditoria_mid/pull/250) | `feature/implemtacion_nueva_plantilla_informe` | `develop` | 2026-10-28 03:33:24 UTC | @Sgarcia8 |
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-23 22:10:06 UTC | [#245 - Filtro opcional estado_plan_id en GET gestion-accion (#924, #925)](https://github.com/udistrital/plan_anual_auditoria_mid/pull/245) | @JorgeLo1 |
+| `develop` | 2026-10-28 03:31:27 UTC | [#246 - fix: Consulta de auditorías sin filtros de padre excedía el límite de…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/246) | @Sgarcia8 |
 | `release/6.0.2` | 2026-10-16 01:45:32 UTC | [#242 - fix: AJUSTE DESPLIEGUE IMAGENES](https://github.com/udistrital/plan_anual_auditoria_mid/pull/242) | @Mechaz123 |
-| `master` | 2026-10-16 02:26:57 UTC | [#244 - feat: Release/6.0.2](https://github.com/udistrital/plan_anual_auditoria_mid/pull/244) | @edwargl7 |
+| `master` | 2026-10-28 03:28:11 UTC | [#248 - Feature/mejoras visuales gestion acciones](https://github.com/udistrital/plan_anual_auditoria_mid/pull/248) | @Sgarcia8 |
 
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **7 total** (Crit: 0, High: 2, Med: 3, Low: 2)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -148,16 +144,15 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#173 - fix: Node 24.22-alpine y parche de dependencias vulnerables](https://github.com/udistrital/plan_anual_auditoria_crud/pull/173) | `feature/actualizacion_drone_docker` | `develop` | 2026-10-26 21:27:23 UTC | @CristianCGutierrezG |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-26 02:51:42 UTC | [#172 - Feature/implementacion formulacion planes auditor](https://github.com/udistrital/plan_anual_auditoria_crud/pull/172) | @Sgarcia8 |
+| `develop` | 2026-10-27 17:48:34 UTC | [#173 - fix: Node 24.22-alpine y parche de dependencias vulnerables](https://github.com/udistrital/plan_anual_auditoria_crud/pull/173) | @CristianCGutierrezG |
 | `release/1.0.1` | 2026-09-25 14:26:16 UTC | [#169 - devops: ajuste drone](https://github.com/udistrital/plan_anual_auditoria_crud/pull/169) | @edwargl7 |
 | `master` | 2026-10-26 02:50:56 UTC | [#171 - devops: agrega overrides de handlebars y proxy-addr para corregir alertas de dependabot udistrital/sisifo_documentacion#914](https://github.com/udistrital/plan_anual_auditoria_crud/pull/171) | @JorgeLo1 |
 
@@ -184,7 +179,7 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-05 13:14:48 UTC | [#43 - devops: sync dockerfile](https://github.com/udistrital/renderizado_plantillas_html/pull/43) | @edwargl7 |
+| `develop` | 2026-10-28 04:01:13 UTC | [#46 - Feature/actualizacion dependabot](https://github.com/udistrital/renderizado_plantillas_html/pull/46) | @Sgarcia8 |
 | `release/1.0.0` | 2026-06-09 19:40:02 UTC | [#36 - fix: ajuste error non-breaking spaces](https://github.com/udistrital/renderizado_plantillas_html/pull/36) | @edwargl7 |
 | `release/1.0.1` | 2026-09-24 19:07:44 UTC | [#42 - devops: udate drone y dockerfile](https://github.com/udistrital/renderizado_plantillas_html/pull/42) | @jupmorenor |
 | `master` | 2026-03-20 18:42:52 UTC | [#27 - fix: cambio campo de entrada de datos por data](https://github.com/udistrital/renderizado_plantillas_html/pull/27) | @edwargl7 |
@@ -193,7 +188,7 @@
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **20 total** (Crit: 8, High: 6, Med: 6, Low: 0)
-- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (1 en `develop`, 1 en `master`)
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI
 
@@ -205,7 +200,6 @@
 
 | PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
 |---|---|---|---|---|
-| [#33 - Feature/actualizacion go](https://github.com/udistrital/plantillas_mid/pull/33) | `feature/actualizacion_go` | `develop` | 2026-10-27 03:18:40 UTC | @Sgarcia8 |
 | [#32 - feat: release/1.0.1](https://github.com/udistrital/plantillas_mid/pull/32) | `release/1.0.1` | `master` | 2026-10-16 03:16:26 UTC | @CristianCGutierrezG |
 
 
@@ -213,7 +207,7 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-09-27 14:45:25 UTC | [#31 - feat: IMPLEMENTACIÓN DE AJUSTES](https://github.com/udistrital/plantillas_mid/pull/31) | @Mechaz123 |
+| `develop` | 2026-10-28 03:37:25 UTC | [#33 - Feature/actualizacion go](https://github.com/udistrital/plantillas_mid/pull/33) | @Sgarcia8 |
 | `release/1.0.0` | 2026-05-15 12:27:32 UTC | [#29 - feat: actualizado sonar](https://github.com/udistrital/plantillas_mid/pull/29) | @edwargl7 |
 | `master` | 2026-05-29 04:39:16 UTC | [#30 - feat: ajuste fmt](https://github.com/udistrital/plantillas_mid/pull/30) | @edwargl7 |
 

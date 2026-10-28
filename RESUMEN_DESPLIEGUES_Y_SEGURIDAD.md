@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-28 09:36:38 UTC`
+> *Estado generado automáticamente:* `2026-10-28 09:51:28 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -106,8 +106,8 @@
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **8 total** (Crit: 0, High: 2, Med: 3, Low: 3)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -117,23 +117,22 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#250 - Feature/implemtacion nueva plantilla informe](https://github.com/udistrital/plan_anual_auditoria_mid/pull/250) | `feature/implemtacion_nueva_plantilla_informe` | `develop` | 2026-10-28 03:33:24 UTC | @Sgarcia8 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-28 03:31:27 UTC | [#246 - fix: Consulta de auditorías sin filtros de padre excedía el límite de…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/246) | @Sgarcia8 |
+| `develop` | 2026-10-28 09:42:59 UTC | [#250 - Feature/implemtacion nueva plantilla informe](https://github.com/udistrital/plan_anual_auditoria_mid/pull/250) | @Sgarcia8 |
 | `release/6.0.2` | 2026-10-16 01:45:32 UTC | [#242 - fix: AJUSTE DESPLIEGUE IMAGENES](https://github.com/udistrital/plan_anual_auditoria_mid/pull/242) | @Mechaz123 |
 | `master` | 2026-10-28 03:28:11 UTC | [#248 - Feature/mejoras visuales gestion acciones](https://github.com/udistrital/plan_anual_auditoria_mid/pull/248) | @Sgarcia8 |
 
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **7 total** (Crit: 0, High: 2, Med: 3, Low: 2)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
@@ -159,7 +158,7 @@
 ---
 
 ## [renderizado_plantillas_html](https://github.com/udistrital/renderizado_plantillas_html)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **82 total** (Crit: 7, High: 42, Med: 33, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
 - **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI
@@ -187,7 +186,7 @@
 ---
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **20 total** (Crit: 8, High: 6, Med: 6, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 1, Med: 0, Low: 0)
 - **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI
@@ -214,7 +213,7 @@
 ---
 
 ## [plantillas_crud_serverless](https://github.com/udistrital/plantillas_crud_serverless)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **14 total** (Crit: 0, High: 6, Med: 8, Low: 0)
 - **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI

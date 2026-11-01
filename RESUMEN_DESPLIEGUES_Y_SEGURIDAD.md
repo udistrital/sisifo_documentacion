@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-10-28 09:51:28 UTC`
+> *Estado generado automáticamente:* `2026-11-01 14:39:53 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -56,14 +56,14 @@
 ---
 
 ## [usuario_rol_crud](https://github.com/udistrital/usuario_rol_crud)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 1, Med: 0, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.0.1 | Master / Main |
-| -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) |
+| Develop | Release/1.0.2 | Release/1.0.1 | Master / Main |
+| -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/usuario_rol_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/usuario_rol_crud/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -75,14 +75,14 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-09-18 10:22:14 UTC | [#45 - devops: actualiza utils_oas a v0.6.0, parchea gRPC contra alerta y alinea main.go con lineamientos CI/CD udistrital/sisifo_documentacion#881](https://github.com/udistrital/usuario_rol_crud/pull/45) | @JorgeLo1 |
+| `develop` | 2026-10-28 23:01:31 UTC | [#47 - devops: Go 1.27.3 + distroless:nonroot y parche de dependencias vulnerables](https://github.com/udistrital/usuario_rol_crud/pull/47) | @CristianCGutierrezG |
 | `master` | 2026-05-29 04:27:45 UTC | [#43 - feat: Actualización y ajustes dependencias](https://github.com/udistrital/usuario_rol_crud/pull/43) | @edwargl7 |
 
 ---
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -92,8 +92,9 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#521 - Feature/pruebas e2e playwright](https://github.com/udistrital/plan_anual_auditoria_mf/pull/521) | `feature/pruebas-e2e-playwright` | `develop` | 2026-10-29 18:52:22 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama
@@ -106,40 +107,41 @@
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 0, Low: 1)
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
-| Develop | Release/6.1.0 | Release/6.0.2 | Master / Main |
-| -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
+| Develop | Release/6.1.1 | Release/6.1.0 | Release/6.0.2 | Master / Main |
+| -- | -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.1.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/release/6.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_mid/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#251 - fix: restablece las pruebas unitarias en CommonJS y la cobertura para Sonar (#935)](https://github.com/udistrital/plan_anual_auditoria_mid/pull/251) | `feature/935-pruebas-commonjs` | `develop` | 2026-10-28 15:28:08 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-28 09:42:59 UTC | [#250 - Feature/implemtacion nueva plantilla informe](https://github.com/udistrital/plan_anual_auditoria_mid/pull/250) | @Sgarcia8 |
+| `develop` | 2026-10-29 03:06:18 UTC | [#252 - fix: https://github.com/udistrital/sisifo_documentacion/issues/938  C…](https://github.com/udistrital/plan_anual_auditoria_mid/pull/252) | @Sgarcia8 |
 | `release/6.0.2` | 2026-10-16 01:45:32 UTC | [#242 - fix: AJUSTE DESPLIEGUE IMAGENES](https://github.com/udistrital/plan_anual_auditoria_mid/pull/242) | @Mechaz123 |
 | `master` | 2026-10-28 03:28:11 UTC | [#248 - Feature/mejoras visuales gestion acciones](https://github.com/udistrital/plan_anual_auditoria_mid/pull/248) | @Sgarcia8 |
 
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 0, Low: 1)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.1.0 | Release/1.0.1 | Master / Main |
-| -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
+| Develop | Release/1.1.0 | Release/1.0.2 | Release/1.0.1 | Master / Main |
+| -- | -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -151,7 +153,7 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-27 17:48:34 UTC | [#173 - fix: Node 24.22-alpine y parche de dependencias vulnerables](https://github.com/udistrital/plan_anual_auditoria_crud/pull/173) | @CristianCGutierrezG |
+| `develop` | 2026-10-28 23:01:51 UTC | [#174 - devops: parche de qs por vulnerabilidad de Dependabot ](https://github.com/udistrital/plan_anual_auditoria_crud/pull/174) | @CristianCGutierrezG |
 | `release/1.0.1` | 2026-09-25 14:26:16 UTC | [#169 - devops: ajuste drone](https://github.com/udistrital/plan_anual_auditoria_crud/pull/169) | @edwargl7 |
 | `master` | 2026-10-26 02:50:56 UTC | [#171 - devops: agrega overrides de handlebars y proxy-addr para corregir alertas de dependabot udistrital/sisifo_documentacion#914](https://github.com/udistrital/plan_anual_auditoria_crud/pull/171) | @JorgeLo1 |
 
@@ -163,9 +165,9 @@
 
 ### Estado CI
 
-| Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
-| -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) |
+| Develop | Release/1.0.2 | Release/1.0.1 | Release/1.0.0 | Master / Main |
+| -- | -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/renderizado_plantillas_html/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/renderizado_plantillas_html/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -186,14 +188,14 @@
 ---
 
 ## [plantillas_mid](https://github.com/udistrital/plantillas_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 1, Med: 0, Low: 0)
+- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
 - **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
 
 ### Estado CI
 
-| Develop | Release/1.0.1 | Release/1.0.0 | Master / Main |
-| -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) |
+| Develop | Release/1.0.2 | Release/1.0.1 | Release/1.0.0 | Master / Main |
+| -- | -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/release/1.0.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plantillas_mid/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plantillas_mid/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -206,7 +208,7 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-10-28 03:37:25 UTC | [#33 - Feature/actualizacion go](https://github.com/udistrital/plantillas_mid/pull/33) | @Sgarcia8 |
+| `develop` | 2026-10-29 03:20:24 UTC | [#34 - fix: https://github.com/udistrital/sisifo_documentacion/issues/938  S…](https://github.com/udistrital/plantillas_mid/pull/34) | @Sgarcia8 |
 | `release/1.0.0` | 2026-05-15 12:27:32 UTC | [#29 - feat: actualizado sonar](https://github.com/udistrital/plantillas_mid/pull/29) | @edwargl7 |
 | `master` | 2026-05-29 04:39:16 UTC | [#30 - feat: ajuste fmt](https://github.com/udistrital/plantillas_mid/pull/30) | @edwargl7 |
 

@@ -1,16 +1,16 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-11-04 02:04:19 UTC`
+> *Estado generado automáticamente:* `2026-11-04 03:18:39 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 0, Low: 1)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.0.2 | Release/1.0.1 | Master / Main |
-| -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
+| Develop | Release/1.0.2 | Master / Main |
+| -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/auditoria_plan_mejoramiento_root_mf/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/auditoria_plan_mejoramiento_root_mf/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -23,9 +23,8 @@
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
 | `develop` | 2026-10-25 05:33:27 UTC | [#52 - devops: update image base drone too 24.22.1-alpine](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/52) | @edwargl7 |
-| `release/1.0.1` | 2026-10-08 11:40:50 UTC | [#48 - devops: actualización prefijo para s3](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/48) | @edwargl7 |
 | `release/1.0.2` | 2026-10-25 05:34:07 UTC | [#53 - devops: update image base drone too 24.22.1-alpine](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/53) | @edwargl7 |
-| `master` | 2026-10-25 05:36:13 UTC | [#54 - devops: update image base drone too 24.22.1-alpine Release/1.0.2](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/54) | @edwargl7 |
+| `master` | 2026-10-08 12:43:19 UTC | [#49 - feat: despliegue Release/1.0.1 actualización angular](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf/pull/49) | @edwargl7 |
 
 ---
 
@@ -136,9 +135,9 @@
 
 ### Estado CI
 
-| Develop | Release/1.2.0 | Release/1.1.0 | Release/1.0.2 | Release/1.0.1 | Master / Main |
-| -- | -- | -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.2.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
+| Develop | Release/1.2.0 | Release/1.1.0 | Release/1.0.2 | Master / Main |
+| -- | -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.2.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.0.2)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
@@ -152,14 +151,13 @@
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
 | `develop` | 2026-10-28 23:01:51 UTC | [#174 - devops: parche de qs por vulnerabilidad de Dependabot ](https://github.com/udistrital/plan_anual_auditoria_crud/pull/174) | @CristianCGutierrezG |
-| `release/1.0.1` | 2026-09-25 14:26:16 UTC | [#169 - devops: ajuste drone](https://github.com/udistrital/plan_anual_auditoria_crud/pull/169) | @edwargl7 |
-| `master` | 2026-10-26 02:50:56 UTC | [#171 - devops: agrega overrides de handlebars y proxy-addr para corregir alertas de dependabot udistrital/sisifo_documentacion#914](https://github.com/udistrital/plan_anual_auditoria_crud/pull/171) | @JorgeLo1 |
+| `master` | 2026-10-02 23:44:52 UTC | [#170 - feat: Release/1.0.1](https://github.com/udistrital/plan_anual_auditoria_crud/pull/170) | @edwargl7 |
 
 ---
 
 ## [renderizado_plantillas_html](https://github.com/udistrital/renderizado_plantillas_html)
 - **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -169,9 +167,8 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#44 - feat: release/1.0.1](https://github.com/udistrital/renderizado_plantillas_html/pull/44) | `release/1.0.1` | `master` | 2026-10-16 03:22:26 UTC | @CristianCGutierrezG |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
@@ -181,7 +178,7 @@
 | `develop` | 2026-10-28 04:01:13 UTC | [#46 - Feature/actualizacion dependabot](https://github.com/udistrital/renderizado_plantillas_html/pull/46) | @Sgarcia8 |
 | `release/1.0.0` | 2026-06-09 19:40:02 UTC | [#36 - fix: ajuste error non-breaking spaces](https://github.com/udistrital/renderizado_plantillas_html/pull/36) | @edwargl7 |
 | `release/1.0.1` | 2026-09-24 19:07:44 UTC | [#42 - devops: udate drone y dockerfile](https://github.com/udistrital/renderizado_plantillas_html/pull/42) | @jupmorenor |
-| `master` | 2026-03-20 18:42:52 UTC | [#27 - fix: cambio campo de entrada de datos por data](https://github.com/udistrital/renderizado_plantillas_html/pull/27) | @edwargl7 |
+| `master` | 2026-11-04 02:08:01 UTC | [#44 - feat: release/1.0.1](https://github.com/udistrital/renderizado_plantillas_html/pull/44) | @CristianCGutierrezG |
 
 ---
 

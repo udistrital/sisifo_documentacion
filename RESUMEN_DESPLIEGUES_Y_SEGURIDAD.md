@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-11-04 03:18:39 UTC`
+> *Estado generado automáticamente:* `2026-11-04 22:56:40 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -29,7 +29,7 @@
 ---
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
-- **Alertas de Seguridad (Dependabot):** ✅ Sin alertas abiertas
+- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
@@ -80,8 +80,8 @@
 ---
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **29 total** (Crit: 2, High: 8, Med: 13, Low: 6)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Alertas de Seguridad (Dependabot):** ⚠️ **28 total** (Crit: 2, High: 8, Med: 12, Low: 6)
+- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (2 en `develop`)
 
 ### Estado CI
 
@@ -91,8 +91,10 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#525 - Feature: Ajustes en la formulacion y devolucion del plan de mejoramiento](https://github.com/udistrital/plan_anual_auditoria_mf/pull/525) | `feature/ajustes_hallazgos` | `develop` | 2026-11-04 19:37:42 UTC | @CristianCGutierrezG |
+| [#524 - Feature/940 estabilizacion produccion](https://github.com/udistrital/plan_anual_auditoria_mf/pull/524) | `feature/940-estabilizacion-produccion` | `develop` | 2026-11-04 19:11:14 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama
@@ -105,8 +107,8 @@
 ---
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **3 total** (Crit: 0, High: 0, Med: 2, Low: 1)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
+- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
 
 ### Estado CI
 
@@ -116,8 +118,9 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#255 - fix: el informe de seguimiento muestra las descripciones de temas con imagen guardadas en el gestor documental, con una función común para ambos informes que también resuelve las de los subtemas udistrital/sisifo_documentacion#940](https://github.com/udistrital/plan_anual_auditoria_mid/pull/255) | `feature/940-estabilizacion-produccion` | `develop` | 2026-11-04 19:12:13 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama
@@ -131,7 +134,7 @@
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 0, Low: 1)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `master`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
@@ -141,9 +144,8 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#175 - devops: Release/1.2.0 agregado endpoints de reportes y parche de seguridad](https://github.com/udistrital/plan_anual_auditoria_crud/pull/175) | `release/1.2.0` | `master` | 2026-11-04 01:33:19 UTC | @edwargl7 |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
@@ -151,7 +153,7 @@
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
 | `develop` | 2026-10-28 23:01:51 UTC | [#174 - devops: parche de qs por vulnerabilidad de Dependabot ](https://github.com/udistrital/plan_anual_auditoria_crud/pull/174) | @CristianCGutierrezG |
-| `master` | 2026-10-02 23:44:52 UTC | [#170 - feat: Release/1.0.1](https://github.com/udistrital/plan_anual_auditoria_crud/pull/170) | @edwargl7 |
+| `master` | 2026-11-04 05:02:33 UTC | [#175 - devops: Release/1.2.0 agregado endpoints de reportes y parche de seguridad](https://github.com/udistrital/plan_anual_auditoria_crud/pull/175) | @edwargl7 |
 
 ---
 

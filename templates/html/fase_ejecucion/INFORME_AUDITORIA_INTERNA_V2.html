@@ -63,7 +63,21 @@
         .text-justify {
             text-align: justify;
             padding: 4pt;
+        }
+
+        /* Solo la descripción del hallazgo es texto plano y conserva sus saltos de línea */
+        .respeta-saltos {
             white-space: pre-line;
+        }
+
+        /* El HTML del editor trae <p> con margen y a veces un <p> vacío al final: se compactan */
+        .table-data p,
+        .text-justify p {
+            margin: 0 0 4pt 0;
+        }
+        .table-data p:last-child,
+        .text-justify p:last-child {
+            margin-bottom: 0;
         }
 
         .text-left {
@@ -103,8 +117,14 @@
             word-break: break-word;
         }
 
+        .titulo-tema {
+            margin: 12pt 0 4pt 0;
+        }
         .titulo-subtema {
             margin: 8pt 0 4pt 0;
+        }
+        .hallazgo {
+            margin: 0 0 8pt 0;
         }
         .descripcion {
             text-align: justify;
@@ -408,7 +428,7 @@
 
             <!-- TEMA -->
             <div class="text-left no-margin-no-padding">
-                <h4 class="no-margin-no-padding">
+                <h4 class="no-margin-no-padding titulo-tema">
                     {{ tema_idx }}. {{ tema.titulo }}
                 </h4>
             </div>
@@ -446,22 +466,11 @@
                         'titulo': hallazgo.titulo,
                     }) %}
 
-                    <div class="text-justify no-margin-no-padding">
+                    <div class="text-justify no-margin-no-padding hallazgo">
                         <p class="no-margin-no-padding">
-
-                            <b>
-                                {{ tema_idx }}.{{ subtema_idx }}.{{ loop.index }}
-                                Hallazgo
-                            </b>
-
-                            <i>
-                                "{{ hallazgo.titulo }}".
-
-                                <b>(Descripción)</b>
-
-                                {{ hallazgo.descripcion }}
-                            </i>
-
+                            <b>{{ tema_idx }}.{{ subtema_idx }}.{{ loop.index }} Hallazgo</b>
+                            <i>"{{ hallazgo.titulo }}".</i><br>
+                            <i class="respeta-saltos">{{ hallazgo.descripcion | trim }}</i>
                         </p>
                     </div>
 

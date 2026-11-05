@@ -8,6 +8,6 @@ Centraliza la documentación y los recursos de apoyo del proyecto Sísifo v2, in
 - [utils](utils/): utilidades de apoyo.
 - [.github](.github/): configuración y plantillas de GitHub.
 - [.skills](.skills/): habilidades y guías de automatización del proyecto.
-- [tableros](.tableros/): diseño inicial de tableros de control para el seguimiento de auditorias
+- [tableros](tableros/): diseño inicial de tableros de control para el seguimiento de auditorias
 
 El archivo [RESUMEN_DESPLIEGUES_Y_SEGURIDAD.md](RESUMEN_DESPLIEGUES_Y_SEGURIDAD.md) reúne el estado reportado de despliegues, integración continua, solicitudes de cambio y alertas de seguridad.

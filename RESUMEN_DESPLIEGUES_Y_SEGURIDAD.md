@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-11-09 04:53:23 UTC`
+> *Estado generado automáticamente:* `2026-11-12 14:05:29 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -81,7 +81,7 @@
 
 ## [plan_anual_auditoria_mf](https://github.com/udistrital/plan_anual_auditoria_mf)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **29 total** (Crit: 2, High: 8, Med: 13, Low: 6)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (2 en `develop`)
 
 ### Estado CI
 
@@ -91,8 +91,10 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#532 - feat: ejecutor dependencia](https://github.com/udistrital/plan_anual_auditoria_mf/pull/532) | `feature/ejecutor_dependencia` | `develop` | 2026-11-11 17:02:13 UTC | @CristianCGutierrezG |
+| [#531 - feat: causa abierta, dependencias líderes y ajustes del registro de avances udistrital/sisifo_documentacion#947](https://github.com/udistrital/plan_anual_auditoria_mf/pull/531) | `feature/947-ajustes-fase4-dependencias-hallazgos` | `develop` | 2026-11-11 02:29:07 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama
@@ -106,7 +108,7 @@
 
 ## [plan_anual_auditoria_mid](https://github.com/udistrital/plan_anual_auditoria_mid)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (2 en `develop`)
 
 ### Estado CI
 
@@ -116,8 +118,10 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#263 - feat: ejecutor dependencia](https://github.com/udistrital/plan_anual_auditoria_mid/pull/263) | `feature/ejecutor_dependencia` | `develop` | 2026-11-11 17:05:24 UTC | @CristianCGutierrezG |
+| [#262 - feat: causa por acción en el PDF del plan de mejoramiento udistrital/sisifo_documentacion#947](https://github.com/udistrital/plan_anual_auditoria_mid/pull/262) | `feature/947-ajustes-fase4-dependencias-hallazgos` | `develop` | 2026-11-11 02:28:15 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama
@@ -130,8 +134,8 @@
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **1 total** (Crit: 0, High: 0, Med: 0, Low: 1)
-- **Estado de Pull Requests:** ✅ Sin PRs pendientes
+- **Alertas de Seguridad (Dependabot):** ⚠️ **6 total** (Crit: 0, High: 2, Med: 2, Low: 2)
+- **Estado de Pull Requests:** ⚠️ **2 PR(s) pendiente(s)** (2 en `develop`)
 
 ### Estado CI
 
@@ -141,8 +145,10 @@
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-✅ *Sin PRs pendientes por resolver en este repositorio.*
-
+| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
+|---|---|---|---|---|
+| [#180 - feat: ejecutor dependencia](https://github.com/udistrital/plan_anual_auditoria_crud/pull/180) | `feature/ejecutor_dependencia` | `develop` | 2026-11-11 17:18:28 UTC | @CristianCGutierrezG |
+| [#179 - feat: campo causa en accion_mejora udistrital/sisifo_documentacion#947](https://github.com/udistrital/plan_anual_auditoria_crud/pull/179) | `feature/947-ajustes-fase4-dependencias-hallazgos` | `develop` | 2026-11-11 02:27:31 UTC | @JorgeLo1 |
 
 
 ### Último Despliegue por Rama

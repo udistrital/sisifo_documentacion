@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-11-12 14:25:37 UTC`
+> *Estado generado automáticamente:* `2026-11-13 09:58:01 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -29,7 +29,7 @@
 ---
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **2 total** (Crit: 0, High: 0, Med: 1, Low: 1)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **3 total** (Crit: 0, High: 0, Med: 2, Low: 1)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
@@ -99,7 +99,8 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-11-12 14:12:22 UTC | [#532 - feat: ejecutor dependencia](https://github.com/udistrital/plan_anual_auditoria_mf/pull/532) | @CristianCGutierrezG |
+| `develop` | 2026-11-12 16:26:54 UTC | [#533 - feat: foro de la acción de mejora conectado al MID en Registro de avances udistrital/sisifo_documentacion#948](https://github.com/udistrital/plan_anual_auditoria_mf/pull/533) | @JorgeLo1 |
+| `release/8.8.0` | 2026-11-12 16:28:30 UTC | [#534 - feat: foro de la acción de mejora](https://github.com/udistrital/plan_anual_auditoria_mf/pull/534) | @edwargl7 |
 | `master` | 2026-11-04 01:18:57 UTC | [#523 - feat: Release/8.5.0 pruebas y ajustes vista gestión de acciones](https://github.com/udistrital/plan_anual_auditoria_mf/pull/523) | @edwargl7 |
 
 ---
@@ -124,34 +125,35 @@
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-11-12 14:19:02 UTC | [#263 - feat: ejecutor dependencia](https://github.com/udistrital/plan_anual_auditoria_mid/pull/263) | @CristianCGutierrezG |
+| `develop` | 2026-11-12 16:15:00 UTC | [#264 - feat: foro de la acción de mejora con validación de participantes udistrital/sisifo_documentacion#948](https://github.com/udistrital/plan_anual_auditoria_mid/pull/264) | @JorgeLo1 |
+| `release/6.5.0` | 2026-11-12 16:29:05 UTC | [#265 - feat: foro de la acción de mejora](https://github.com/udistrital/plan_anual_auditoria_mid/pull/265) | @edwargl7 |
 | `master` | 2026-11-07 05:07:45 UTC | [#260 - Release/6.3.0](https://github.com/udistrital/plan_anual_auditoria_mid/pull/260) | @Sgarcia8 |
 
 ---
 
 ## [plan_anual_auditoria_crud](https://github.com/udistrital/plan_anual_auditoria_crud)
 - **Alertas de Seguridad (Dependabot):** ⚠️ **6 total** (Crit: 0, High: 2, Med: 2, Low: 2)
-- **Estado de Pull Requests:** ⚠️ **1 PR(s) pendiente(s)** (1 en `develop`)
+- **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
 
-| Develop | Release/1.3.1 | Release/1.3.0 | Release/1.2.0 | Release/1.1.0 | Master / Main |
-| -- | -- | -- | -- | -- | -- |
-| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.3.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.3.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.2.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.1.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
+| Develop | Release/1.4.0 | Release/1.3.1 | Release/1.3.0 | Master / Main |
+| -- | -- | -- | -- | -- |
+| [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/develop)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.4.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.3.1)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/release/1.3.0)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) | [![Build Status](https://hubci.portaloas.udistrital.edu.co/api/badges/udistrital/plan_anual_auditoria_crud/status.svg?ref=refs/heads/master)](https://hubci.portaloas.udistrital.edu.co/udistrital/plan_anual_auditoria_crud/) |
 
 ### Pull Requests Pendientes por Resolver (Abiertos)
 
-| PR | Rama Origen | Rama Destino | Creado (UTC) | Autor |
-|---|---|---|---|---|
-| [#180 - feat: ejecutor dependencia](https://github.com/udistrital/plan_anual_auditoria_crud/pull/180) | `feature/ejecutor_dependencia` | `develop` | 2026-11-11 17:18:28 UTC | @CristianCGutierrezG |
+✅ *Sin PRs pendientes por resolver en este repositorio.*
+
 
 
 ### Último Despliegue por Rama
 
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
-| `develop` | 2026-11-12 14:24:10 UTC | [#179 - feat: campo causa en accion_mejora udistrital/sisifo_documentacion#947](https://github.com/udistrital/plan_anual_auditoria_crud/pull/179) | @JorgeLo1 |
-| `master` | 2026-11-07 03:27:55 UTC | [#177 - feat: Release/1.3.0](https://github.com/udistrital/plan_anual_auditoria_crud/pull/177) | @edwargl7 |
+| `develop` | 2026-11-12 16:07:50 UTC | [#182 - feat: recurso comentario-accion para el foro de la acción de mejora udistrital/sisifo_documentacion#948](https://github.com/udistrital/plan_anual_auditoria_crud/pull/182) | @JorgeLo1 |
+| `release/1.4.0` | 2026-11-12 16:29:46 UTC | [#183 - feat: recurso comentario-accion para el foro](https://github.com/udistrital/plan_anual_auditoria_crud/pull/183) | @edwargl7 |
+| `master` | 2026-11-04 05:02:33 UTC | [#175 - devops: Release/1.2.0 agregado endpoints de reportes y parche de seguridad](https://github.com/udistrital/plan_anual_auditoria_crud/pull/175) | @edwargl7 |
 
 ---
 
@@ -204,6 +206,7 @@
 | Rama Destino | Fecha Merge (UTC) | Último PR Resuelto | Autor |
 |---|---|---|---|
 | `develop` | 2026-10-29 03:20:24 UTC | [#34 - fix: https://github.com/udistrital/sisifo_documentacion/issues/938  S…](https://github.com/udistrital/plantillas_mid/pull/34) | @Sgarcia8 |
+| `release/1.0.1` | 2026-11-12 15:24:48 UTC | [#35 - feat: eliminación de log en el main](https://github.com/udistrital/plantillas_mid/pull/35) | @CristianCGutierrezG |
 | `master` | 2026-05-29 04:39:16 UTC | [#30 - feat: ajuste fmt](https://github.com/udistrital/plantillas_mid/pull/30) | @edwargl7 |
 
 ---

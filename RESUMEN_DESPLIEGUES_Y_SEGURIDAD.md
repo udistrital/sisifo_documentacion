@@ -1,5 +1,5 @@
 # Estado de Despliegues, CI, PRs y Alertas de Seguridad
-> *Estado generado automáticamente:* `2026-11-13 09:58:01 UTC`
+> *Estado generado automáticamente:* `2026-11-14 13:04:10 UTC`
 
 ---
 ## [auditoria_plan_mejoramiento_root_mf](https://github.com/udistrital/auditoria_plan_mejoramiento_root_mf)
@@ -29,7 +29,7 @@
 ---
 
 ## [usuario_rol_mf](https://github.com/udistrital/usuario_rol_mf)
-- **Alertas de Seguridad (Dependabot):** ⚠️ **3 total** (Crit: 0, High: 0, Med: 2, Low: 1)
+- **Alertas de Seguridad (Dependabot):** ⚠️ **8 total** (Crit: 0, High: 0, Med: 6, Low: 2)
 - **Estado de Pull Requests:** ✅ Sin PRs pendientes
 
 ### Estado CI
